@@ -9,7 +9,7 @@ public class MyProgram {
 	 * @return
 	 */
 
-    // changed a to int
+    // changed a to int originally String
 	public static int sum(int a, int b) {
         return a + b;
     }
