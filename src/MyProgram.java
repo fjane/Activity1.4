@@ -6,7 +6,7 @@ public class MyProgram {
 	 * @param a First number to add
 	 * @param b Second number to add
 	 * 
-	 * @return
+	 * @return The sum of a and b.
 	 */
 
     // changed a to int originally String
@@ -18,9 +18,9 @@ public class MyProgram {
 	 * Implement multiplication as a series of add operations. 
 	 * For example, if 'times' is 3, then the equation
 	 * should be: 'input + input + input'. 
-	 * @param input
-	 * @param times
-	 * @return
+	 * @param input Number to be multiplied
+	 * @param times Number to be multiplied by
+	 * @return The multiplication of input and times.
 	 */
 
     // times variable not called for iteration, looped using input originally
@@ -57,9 +57,9 @@ public class MyProgram {
 	/**
 	 * Divide a by b. 
 	 * 
-	 * @param a
-	 * @param b
-	 * @return The result as a decimal. 
+	 * @param a Number to be divided
+	 * @param b Number to be divided by
+	 * @return The division of a by b. The result as a decimal.
 	 */
 
     // change to double from int so result is decimal.
@@ -68,10 +68,10 @@ public class MyProgram {
 	}
 
 	/**
-	 * Print a the input to the screen a given number of times.
+	 * Print the input to the screen a given number of times.
 	 *
-	 * @param input
-	 * @param times
+	 * @param input String message to be printed
+	 * @param times Number of times message should be printed
 	 */
 
     // changed while loop to for loop. If while loop is preferred change
@@ -84,7 +84,7 @@ public class MyProgram {
         }
     }
 
-	public static void main(String[] args) {
+	static void main(String[] args) {
 		int a = 1;
 		int b = 2;
 
